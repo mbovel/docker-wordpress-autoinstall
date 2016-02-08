@@ -48,7 +48,6 @@ CMD wp core config \
     --dbname=${MYSQL_DATABASE:-wp} \
     --skip-check \
  # Wait for the database to be ready
- && echo tcp://${MYSQL_HOST:-db}:{MYSQL_PORT:-3306} \
  && dockerize -wait tcp://${MYSQL_HOST:-db}:${MYSQL_PORT:-3306} -timeout 30s \
  && wp core install \
     --url=${WORDPRESS_URL:-localhost} \
