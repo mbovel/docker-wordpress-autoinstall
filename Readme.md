@@ -1,3 +1,5 @@
+[![](https://badge.imagelayers.io/mbovel/wordpress-autoinstall:latest.svg)](https://imagelayers.io/?images=mbovel/wordpress-autoinstall:latest 'Get your own badge on imagelayers.io')
+
 Automatically download, configure, install and run [WordPress](https://wordpress.org) thanks to [WP-CLI](http://wp-cli.org).
 
 **Warning**: WordPress is launched wih the [PHP's built-in web server](http://php.net/manual/en/features.commandline.webserver.php). It is not intended to be a full-featured web server. It should not be used on a public network.
