@@ -38,10 +38,6 @@ When you start the containers with `docker-compose`, you can set environment var
 - `WORDPRESS_ADMIN_PASSWORD=admin`
 - `WORDPRESS_ADMIN_MAIL=admin@example.com`
 
-## Build arguments
-
-- `WORDPRESS_VERSION=4.4.2`
-
 ## See also
 
 - [docker-wordpress-wp-cli](https://github.com/conetix/docker-wordpress-wp-cli)

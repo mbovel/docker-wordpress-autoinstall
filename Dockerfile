@@ -31,7 +31,7 @@ RUN useradd -d /wp -s /bin/bash wp \
 USER wp
 
 # WordPress version can be changed at build time using `docker build --build-arg WORDPRESS_VERSION=4.4.2 .`
-ARG WORDPRESS_VERSION=4.4.2
+ENV WORDPRESS_VERSION 4.4.2
 # TODO: add support for 'latest', Problem: doesn't work with `wp core verify-checksums`
 
 # Download WordPress and verify the checksum
