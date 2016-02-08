@@ -1,6 +1,6 @@
 Automatically download, configure, install and run [WordPress](https://wordpress.org) thanks to [WP-CLI](http://wp-cli.org).
 
-**Warning**: WordPress is lanched wih the [PHP Built-in web server](http://php.net/manual/en/features.commandline.webserver.php). It is not intended to be a full-featured web server. It should not be used on a public network.
+**Warning**: WordPress is launched wih the [PHP's built-in web server](http://php.net/manual/en/features.commandline.webserver.php). It is not intended to be a full-featured web server. It should not be used on a public network.
 
 ## How to use it
 
@@ -22,7 +22,7 @@ When you start the containers with `docker-compose`, you can adjust the configur
 	gdocker build -t wp .
 	docker run -d -e MYSQL_HOST=<host> -e MYSQL_USER=<username> -e MYSQL_PASSWORD=<password> -e MYSQL_DATABASE=<database for wordpress>
 
-When you start the containers with `docker-compose`, you can set envirionment variables with `-e <NAME>=<VALUE>` parameters.
+When you start the containers with `docker-compose`, you can set environment variables with `-e <NAME>=<VALUE>` parameters.
 
 ## Environment Variables
 
