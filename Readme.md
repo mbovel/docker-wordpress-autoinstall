@@ -21,7 +21,7 @@ When you start the containers with `docker-compose`, you can adjust the configur
 
 ### With docker engine
 	
-	gdocker build -t wp .
+	docker build -t wp .
 	docker run -d -e MYSQL_HOST=<host> -e MYSQL_USER=<username> -e MYSQL_PASSWORD=<password> -e MYSQL_DATABASE=<database for wordpress>
 
 When you start the containers with `docker-compose`, you can set environment variables with `-e <NAME>=<VALUE>` parameters.
