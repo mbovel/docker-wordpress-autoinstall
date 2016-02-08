@@ -1,0 +1,12 @@
+version: '2'
+services:
+  web:
+    build: .
+    depends_on:
+      - db
+    ports:
+      - 80:8080
+    env_file: .env
+  db:
+    image: mysql
+    env_file: .env
